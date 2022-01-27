@@ -6,18 +6,23 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='./asset/css/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./asset/fonts/themifyicons/themify-icons.css'>
     <script src='main.js'></script>
 </head>
 <body>
     <div id="main">
         <div id="header">
+            <!-- Start: nav -->
             <ul id="nav">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Band</a></li>
                 <li><a href="#">Tour</a></li>
                 <li><a href="#">Contact</a></li>
                 <li>
-                    <a href="#">More</a>
+                    <a href="#">
+                        More
+                        <i class="nav-dropdown ti-angle-down"></i>
+                    </a>
                     <ul class="subnav">
                         <li><a href="">Merchadise</a></li>
                         <li><a href="">Extras</a></li>
@@ -25,14 +30,84 @@
                     </ul>
                 </li>
             </ul>
+            <!-- End: nav -->
+            <!-- Start: search -->
+            <div id="form-search">
+                <i class="search-button ti-search"></i>
+            </div>
+            <!-- End: search -->
         </div>
 
         <div id="slider">
-
+            <div class="content">
+                <div class="stitle">
+                    <h3>New York</h3>
+                </div>
+                <div class="description">
+                    <p>The atmosphere in New York is lorem ipsum</p>
+                </div>
+            </div>
         </div>
             
         <div id="content">
+            <!-- Start: About section -->
+            <div class="content-section">
+                <div class="section-heading">THE BAND</div>
+                <div class="section-sub-heading">We love music</div>
+                <p class="about-text">
+                    We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div class="team-list">
+                    <div class="team-item">
+                        <div class="team-name">Name</div>
+                        <div class="team-img"><img src="./asset/img/member.jfif"></div>
+                    </div>
+                    <div class="team-item">
+                        <div class="team-name">Name</div>
+                        <div class="team-img"><img src="./asset/img/member.jfif"></div>
+                    </div>
+                    <div class="team-item">
+                        <div class="team-name">Name</div>
+                        <div class="team-img"><img src="./asset/img/member.jfif"></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <!-- End: About section -->
+            <div class="tour-date-section text-white">
+                <div class="content-section">
+                    <div class="section-heading">TOUR DATES</div>
+                    <div class="section-sub-heading">Remember to book your tickets!</div>
+                    <ul class="tickets-list">
+                        <li>Septemper<span class="sold-out">Sold out</span></li>
+                        <li>October<span class="sold-out">Sold out</span></li>
+                        <li>November<span class="quantity">3</span></li>
+                    </ul>
+                </div>
+            </div>
+            
 
+            <div class="content-section">
+                <div class="section-heading">TOUR DATES</div>
+                <div class="section-sub-heading">We love music</div>
+                <p class="about-text">
+                    We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+
+            <div class="content-section">
+                <div class="section-heading">THE BAND</div>
+                <div class="section-sub-heading">We love music</div>
+                <p class="about-text">
+                    We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
         </div>
 
         <div id="footer">
