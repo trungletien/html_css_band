@@ -85,9 +85,39 @@
                         <li>October<span class="sold-out">Sold out</span></li>
                         <li>November<span class="quantity">3</span></li>
                     </ul>
+                    <div class="place-list">
+                        <div class="place-item">
+                            <img class="place-img" src="./asset/img/place1..jpg">
+                            <div class="place-body">
+                                <h3 class="place-heading">New York</h3>
+                                <p class="place-time">Fri 27 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <a href="" class="place-buy">Buy Tickets</a>
+                            </div>
+                        </div>
+                        <div class="place-item">
+                            <img class="place-img" src="./asset/img/place2.jpg">
+                            <div class="place-body">
+                                <h3 class="place-heading">Paris</h3>
+                                <p class="place-time">Sat 28 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <a href="" class="place-buy">Buy Tickets</a>
+                            </div>
+                        </div>
+                        <div class="place-item">
+                            <img class="place-img" src="./asset/img/place3.jpg">
+                            <div class="place-body">
+                                <h3 class="place-heading">San Francisco</h3>
+                                <p class="place-time">Sun 29 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <a href="" class="place-buy">Buy Tickets</a>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
                 </div>
             </div>
-            
+        
 
             <div class="content-section">
                 <div class="section-heading">TOUR DATES</div>
@@ -112,6 +142,38 @@
 
         <div id="footer">
 
+        </div>
+
+        <div id="modal">
+            <div class="modal-container">
+                <div class="modal-header">
+                    <div class="modal-close"><i class="ti-close"></i></div>
+                    <div class="header-content">
+                        <i class="ti-bag"></i>
+                        Tickets
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <label class="modal-label" for="">
+                        <i class="ti-shopping-cart"></i>
+                        Tickets, $15 per person
+                    </label>
+                    <input class="modal-input" type="text" placeholder="How many?">
+                    <label class="modal-label" for="">
+                        <i class="ti-user"></i>
+                        Send To
+                    </label>
+                    <input class="modal-input" type="text" placeholder="How many?">
+                    <button id="buy-tickets">
+                        Pay <i class="ti-check"></i>
+                    </button>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-help">
+                        Need <a href="#">help?</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>

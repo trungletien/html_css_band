@@ -118,6 +118,7 @@ html {
     border-radius: 4px;
 }
 
+
 .tickets-list {
     background-color: #fff;
     list-style: none;
@@ -151,6 +152,63 @@ html {
     text-align: center;
     margin-top: -2px;
 }
+
+.place-list {
+    padding: 32px 0px;
+    margin: 0px -8px;
+    margin-bottom: 32px;
+}
+
+.place-item {
+    float: left;
+    width: calc(100%/3);
+    padding: 0 8px;
+}
+
+.place-img {
+    width: 100%;
+    display: block;
+}
+
+.place-img:hover {
+    opacity: 0.6;
+}
+
+.place-body {
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+    padding: 16px;
+}
+
+.place-heading {
+    font-size: 15px;
+}
+
+.place-time {
+    margin-top: 15px;
+    opacity: 0.6;
+}
+
+.place-desc {
+    margin-top: 15px;
+    line-height: 1.4;
+}
+
+.place-buy {
+    margin: 15px 0px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    padding: 11px 16px;
+}
+
+.place-buy:hover {
+    background-color: #ccc;
+    color: black;
+}
+
 
 #footer {
     
@@ -233,5 +291,61 @@ html {
 
 .tour-date-section {
     background-color: #000;
+}
+
+#modal {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-container {
+    width: 900px;
+    min-height: 300px;
+    background-color: #fff;
+}
+
+.modal-header {
+    font-size: 15px;
+    padding: 32px 16px;
+    background-color: #009688;
+    color: #fff;
+}
+
+.header-content {
+    letter-spacing: 4px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.modal-close {
+    float: right;
+    
+}
+
+.modal-header {
+
+}
+
+.modal-body {
+
+}
+
+.modal-label {
+
+}
+
+.modal-input {
+
+}
+
+.modal-footer {
+
 }
 
